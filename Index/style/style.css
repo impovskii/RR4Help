@@ -1,0 +1,248 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+::selection {
+  background: rgb(52, 90, 42);
+  color: rgb(190, 190, 190);
+}
+
+.Day__Logo {
+  margin-left: 45px;
+  display: flex;
+  justify-content: center;
+  align-self: baseline;
+  flex-direction: column;
+  width: 60px;
+  height: 60px;
+}
+
+.Line {
+  display: flex;
+  width: 130px;
+  height: 10px;
+}
+
+.header__one {
+  text-align: center;
+  background: rgb(61, 61, 61);
+}
+
+.header__two {
+  text-align: right;
+  background: rgb(61, 61, 61);
+}
+
+.clock {
+  margin-right: 10px;
+}
+
+.time {
+  flex-direction: column;
+  margin-right: 100px;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(61, 61, 61);
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-left: 100px;
+  font-size: 35px;
+}
+
+.hero__head {
+  margin-bottom: 20px;
+  font-size: 52px;
+}
+
+.hero_contact {
+  margin-left: 100px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.img_contact {
+  height: 50px;
+}
+
+.img_contact_trovo {
+  height: 52px;
+}
+
+.hero_discord,
+.hero_youtube,
+.hero_trovo,
+.hero_discord a,
+.hero_youtube a,
+.hero_trovo a {
+  display: flex;
+  margin-left: 11px;
+  margin-top: 1px;
+  margin-right: 11px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(61, 61, 61);
+  font-family: "Ubuntu Sans Mono", monospace;
+  font-weight: 700;
+  font-size: 20px;
+  color: rgb(190, 190, 190);
+  background-color: rgb(61, 61, 61);
+  border-radius: 8px;
+  transition-duration: 0.4s;
+  text-decoration: none;
+}
+
+.hero_discord a:hover,
+.hero_youtube a:hover,
+.hero_trovo a:hover {
+  color: rgb(52, 90, 42);
+  font-size: 21px;
+}
+
+body {
+  position: relative;
+  font-family: "Ubuntu Sans Mono", monospace;
+  font-size: 36px;
+  line-height: 1.4;
+  color: white;
+  min-width: 320px;
+  overflow-x: hidden;
+  height: auto;
+  background: rgb(42, 42, 42);
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  border-top: 2px solid rgb(52, 90, 42);
+  border-bottom: 2px solid rgb(52, 90, 42);
+  background: rgb(38, 38, 38);
+}
+
+.footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  width: 99%;
+  font-size: 14px;
+  color: #fafaff;
+}
+
+.login {
+  margin-bottom: 4px;
+}
+
+.Top_menu,
+.Logo,
+.login {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 100px;
+}
+
+.Top_menu li {
+  margin-right: 50px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.Top_menu a {
+  vertical-align: middle;
+  display: inline-block;
+  color: rgb(190, 190, 190);
+  text-decoration: none;
+  transition-duration: 0.2s;
+}
+
+.Logo h1 {
+  font-family: "Ubuntu Sans Mono", monospace;
+  font-weight: 700;
+  vertical-align: middle;
+  font-size: 35px;
+  color: rgb(190, 190, 190);
+  text-decoration: none;
+}
+
+.login button {
+  font-family: "Ubuntu Sans Mono", monospace;
+  font-weight: 700;
+  padding: 8px 20px;
+  vertical-align: middle;
+  font-size: 20px;
+  border: none;
+  color: rgb(190, 190, 190);
+  background-color: rgb(61, 61, 61);
+  border-radius: 5px;
+  transition-duration: 0.4s;
+}
+
+.login button:hover {
+  color: rgb(61, 61, 61);
+  background-color: rgb(190, 190, 190);
+}
+
+.login_img {
+  vertical-align: middle;
+  width: 40px;
+  height: 40px;
+}
+
+.Top_menu a:hover {
+  color: rgb(52, 90, 42);
+}
+
+.tabs {
+  background: rgb(61, 61, 61);
+  margin-top: 40px;
+  margin-left: 100px;
+  height: 400px;
+  width: 680px;
+  border-radius: 15px;
+}
+
+.tablist {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.tab {
+  margin-top: 5px;
+  margin-left: 4px;
+  border: none;
+  text-decoration: none;
+  font-size: 70px;
+  width: 15px;
+  height: 15px;
+  background-color: rgb(52, 90, 42);
+  border-radius: 50%;
+  transition-duration: 0.4s;
+}
+
+.tabpanel {
+  padding: 10px;
+}
+
+.tab:hover {
+  background-color: rgb(190, 190, 190);
+  width: 12px;
+  height: 12px;
+}
+
+.a__logo {
+  text-decoration: none;
+  color: rgb(190, 190, 190);
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 50px;
+}

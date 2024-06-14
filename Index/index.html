@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RR4 Help</title>
+    <link rel="stylesheet" href="style/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="header__one">
+      <p>
+        Обширная база знаний · Форум · Время в игре · Рекорды по водоёмам ·
+        Профили игроков
+      </p>
+    </div>
+    <header>
+      <div class="All_header_menu">
+        <div class="Logo">
+          <a class="a__logo" href="\Index\index.html"
+            ><span style="color: rgb(52, 90, 42)">RR4 </span> Help</a
+          >
+        </div>
+        <div class="Top_menu">
+          <ul>
+            <li><a href="/Based/Base.html">База знаний </a></li>
+            <li><a href="#">Форум</a></li>
+            <li><a href="#">Новости</a></li>
+            <li><a href="#">Рекорды</a></li>
+          </ul>
+        </div>
+        <div class="login">
+          <button>Вход</button>
+          <img class="login_img" src="img/login.svg" />
+        </div>
+      </div>
+    </header>
+    <div class="header__two">
+      <p></p>
+    </div>
+    <div class="hero">
+      <h2 class="hero__head">
+        <span style="color: rgb(52, 90, 42)">RR4 </span> Help <br />
+        Место, где найдётся всё
+      </h2>
+      <div class="time">
+        <img class="Day__Logo" id="Day" src="img/Day_Logo.svg" />
+        <img class="Line" src="img/Line.svg" />
+        <span id="hours"></span>
+        <span id="dt"></span>
+        <span id="minutes"></span>
+      </div>
+    </div>
+
+    <div class="hero_contact">
+      <div class="hero_discord">
+        <a href="https://discord.gg/HNAtmFRb"
+          ><img class="img_contact" src="img/Dicsord__Logo.svg" /> Мы в Discord
+        </a>
+      </div>
+
+      <div class="hero_youtube">
+        <a href="https://www.youtube.com/channel/UCVpq4qGcQuzvH4o2vGORYvA"
+          ><img class="img_contact" src="img/Youtube_Logo.svg" /> Мы в Youtube
+        </a>
+      </div>
+
+      <div class="hero_trovo">
+        <a href="#"
+          ><img class="img_contact_trovo" src="img/Trovo_Logo.svg" /> Мы в Trovo
+        </a>
+      </div>
+    </div>
+    <div class="tabs">
+      <div class="tablist">
+        <button class="tab" aria-selected="true" id="BZ"></button>
+        <button class="tab" aria-selected="false" id="Record"></button>
+        <button class="tab" aria-selected="false" id="TimeGame"></button>
+        <button class="tab" aria-selected="false" id="BZ"></button>
+      </div>
+      <div class="tabpanel" aria-labelledby="BZ">
+        <p>
+          В правой части главной страницы Вы можете просматривать актуальное
+          игровое время. Теперь не нужно подгадывать время для начала ловли
+        </p>
+      </div>
+
+      <div role="tabpanel" aria-labelledby="Record" hidden>
+        <p>
+          В правой части главной страницы Вы можете просматривать актуальное
+          игровое время. Теперь не нужно подгадывать время для начала ловли
+        </p>
+      </div>
+
+      <div role="tabpanel" aria-labelledby="TimeGame" hidden>
+        <p>
+          В правой части главной страницы Вы можете просматривать актуальное
+          игровое время. Теперь не нужно подгадывать время для начала ловли
+        </p>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p>© GWorkT 2020-2024 | All rights reserved</p>
+    </div>
+
+    <script src="script/RF4Time.js"></script>
+  </body>
+</html>
